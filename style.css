@@ -952,6 +952,9 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+  .contact {
+    margin-top: 1150px;
+  }
   .contact .cdiv .cd1 {
     width: 100%;
   }
@@ -963,6 +966,9 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
   }
 }
 @media screen and (max-width: 426px) {
+  .contact {
+    margin-top: 1200px;
+  }
   .contact .cdiv .cd1 {
     width: 100%;
   }
