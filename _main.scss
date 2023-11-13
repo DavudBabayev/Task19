@@ -19,6 +19,9 @@ main {
 
             p {
                 font-size: 1.8rem;
+                display: flex;
+                gap: 5px;
+                align-items: center;
 
                 img {
                     width: 18px;

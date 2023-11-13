@@ -15,6 +15,10 @@
 
             p {
                 font-size: 1.8rem;
+                display: flex;
+                gap: 5px;
+                justify-content: center;
+                align-items: center;
 
                 img {
                     width: 18px;
@@ -24,6 +28,7 @@
 
             h1 {
                 font-size: 5.5rem;
+                margin-top: 10px;
             }
         }
         .rd2{

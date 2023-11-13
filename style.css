@@ -58,6 +58,7 @@ nav .ndiv ul {
 nav .ndiv ul a {
   text-decoration: none;
   color: black;
+  transition: color 0.5s ease;
 }
 nav .ndiv ul a:hover {
   color: #ff6b00;
@@ -128,6 +129,9 @@ main .mdiv .md1 {
 }
 main .mdiv .md1 p {
   font-size: 1.8rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
 main .mdiv .md1 p img {
   width: 18px;
@@ -218,6 +222,9 @@ header .hdiv .hd2 {
 }
 header .hdiv .hd2 p {
   font-size: 1.8rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
 header .hdiv .hd2 p img {
   width: 18px;
@@ -341,9 +348,14 @@ section .sdiv .sd1 {
   width: 50%;
   margin: auto;
   text-align: center;
+  margin-bottom: 30px;
 }
 section .sdiv .sd1 p {
   font-size: 1.8rem;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
 section .sdiv .sd1 p img {
   width: 18px;
@@ -351,13 +363,14 @@ section .sdiv .sd1 p img {
 }
 section .sdiv .sd1 h1 {
   font-size: 4rem;
+  margin-top: 10px;
 }
 section .sdiv .sd2 {
   width: 100%;
   min-height: 750px;
   display: flex;
   flex-wrap: wrap;
-  gap: 2%;
+  gap: 10px;
 }
 section .sdiv .sd2 div {
   width: 23.5%;
@@ -406,6 +419,10 @@ aside .adiv .ad1 {
 }
 aside .adiv .ad1 p {
   font-size: 1.8rem;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
 aside .adiv .ad1 p img {
   width: 18px;
@@ -413,6 +430,7 @@ aside .adiv .ad1 p img {
 }
 aside .adiv .ad1 h1 {
   font-size: 4rem;
+  margin-top: 10px;
 }
 aside .adiv .ad2 {
   width: 100%;
@@ -536,6 +554,10 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 .client .clidiv .cl1 p {
   font-size: 1.8rem;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
 .client .clidiv .cl1 p img {
   width: 18px;
@@ -543,6 +565,7 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 .client .clidiv .cl1 h1 {
   font-size: 5.5rem;
+  margin-top: 10px;
 }
 .client .clidiv .cl2 {
   width: 100%;
@@ -561,9 +584,15 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 .client .clidiv .cl2 .a .aa {
   width: 100%;
-  height: 50%;
+  height: 50px;
   display: flex;
   gap: 20px;
+  margin-bottom: 40px;
+}
+.client .clidiv .cl2 .a .aa img {
+  border-radius: 999999px;
+  width: 50px;
+  height: 50px;
 }
 .client .clidiv .cl2 .a .aa h2 {
   font-size: 3rem;
@@ -603,6 +632,7 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 .flex {
   width: 100%;
   min-height: 1000px;
+  margin-top: -150px;
 }
 .flex .fldiv {
   width: 100%;
@@ -620,6 +650,10 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 .flex .fldiv .gr1 p {
   font-size: 1.8rem;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
 .flex .fldiv .gr1 p img {
   width: 18px;
@@ -627,6 +661,8 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 .flex .fldiv .gr1 h1 {
   font-size: 5.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .flex .fldiv .gr1 ul {
   display: flex;
@@ -705,6 +741,10 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 .reputed .rediv .rd1 p {
   font-size: 1.8rem;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
 .reputed .rediv .rd1 p img {
   width: 18px;
@@ -712,6 +752,7 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 .reputed .rediv .rd1 h1 {
   font-size: 5.5rem;
+  margin-top: 10px;
 }
 .reputed .rediv .rd2 {
   width: 100%;
@@ -764,6 +805,7 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 .blog {
   width: 100%;
   min-height: 750px;
+  margin-top: -100px;
 }
 .blog .bldiv {
   width: 100%;
@@ -781,6 +823,10 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 .blog .bldiv .bl1 p {
   font-size: 1.8rem;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
 .blog .bldiv .bl1 p img {
   width: 18px;
@@ -788,6 +834,7 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 .blog .bldiv .bl1 h1 {
   font-size: 5.5rem;
+  margin-top: 10px;
 }
 .blog .bldiv .bl2 {
   width: 100%;
@@ -867,6 +914,10 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 .contact .cdiv .cd1 p {
   font-size: 1.8rem;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
 .contact .cdiv .cd1 p img {
   width: 18px;
@@ -874,6 +925,7 @@ aside .adiv .ad2 .ad22 .ad221 .borderlr {
 }
 .contact .cdiv .cd1 h1 {
   font-size: 5.5rem;
+  margin-top: 10px;
 }
 .contact .cdiv .cd2 {
   width: 100%;
