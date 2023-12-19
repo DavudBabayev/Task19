@@ -11,8 +11,10 @@ nav {
 
         .nd1 {
             width: 10%;
-            height: 75%;
+            height: 75px;
             position: relative;
+            display: flex;
+            align-items: center;
 
             a {
                 text-decoration: none;
@@ -30,7 +32,6 @@ nav {
                 height: 30px;
                 border-radius: 999999px;
                 left: 30%;
-                top: 0;
             }
         }
 
@@ -101,11 +102,15 @@ nav {
 @media screen and (max-width: 768px) {
     nav {
         background-color: $lig;
+
         .ndiv {
-            ul, .nd2 {
+
+            ul,
+            .nd2 {
                 display: none;
 
             }
+
             .nd3 {
                 display: block;
 

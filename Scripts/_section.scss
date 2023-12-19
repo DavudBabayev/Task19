@@ -55,18 +55,18 @@ section{
         }
     }
 }
-@media screen and (min-width: 426px) and (max-width: 768px){
+@media screen and (min-width: 460px) and (max-width: 768px){
     section{
         .sdiv{
             .sd2{
                 div{
-                    width: 49%;
+                    width: calc(50% - 10px);
                 }
             }
         }
     }
 }
-@media screen and (max-width: 426px){
+@media screen and (max-width: 460px){
     section{
         .sdiv{
             .sd2{

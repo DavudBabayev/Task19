@@ -28,8 +28,10 @@ nav .ndiv {
 }
 nav .ndiv .nd1 {
   width: 10%;
-  height: 75%;
+  height: 75px;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 nav .ndiv .nd1 a {
   text-decoration: none;
@@ -46,7 +48,6 @@ nav .ndiv .nd1 .round {
   height: 30px;
   border-radius: 999999px;
   left: 30%;
-  top: 0;
 }
 nav .ndiv ul {
   width: 50%;
@@ -101,7 +102,8 @@ nav .ndiv .nd3 i {
   nav {
     background-color: rgba(255, 195, 152, 0.2);
   }
-  nav .ndiv ul, nav .ndiv .nd2 {
+  nav .ndiv ul,
+  nav .ndiv .nd2 {
     display: none;
   }
   nav .ndiv .nd3 {
@@ -390,12 +392,12 @@ section .sdiv .sd2 div:hover {
   border: none;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 460px) and (max-width: 768px) {
   section .sdiv .sd2 div {
-    width: 49%;
+    width: calc(50% - 10px);
   }
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 460px) {
   section .sdiv .sd2 div {
     width: 100%;
   }
